@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta  charset="utf-8">
+		<title>Página de teste</title>
+	</head>
+	
+	<body>
+		<form action="index7.html" method="post">
+			<fieldset>
+				<legend>Dados Pessoais:</legend>
+				<label>Email:</label><br/>
+				<input name="email" type="email"><br/>
+				<label>Password:</label><br/>
+				<input name="password" type="password"><br/>
+			</fieldset>
+			<fieldset>
+				<legend>Questionário</legend>
+				<label>Comentário:</label><br/>
+				<textarea name="comentario"></textarea><br/>
+				<label>Quando deseja:</label><br/>
+				<select>
+					 <option value="ontem">Ontem</option>
+					 <option value="hoje">Hoje</option>
+					 <option value="amanhã">Amanhã</option>
+				</select>
+				<br/>
+				<br/>
+				<label>Que meio(s)de transporte costuma usar?</label><br/>
+				
+				<input type="checkbox" name="vehicle1" value="Bike">Bicicleta<br/>
+				<input type="checkbox" name="vehicle2" value="Car">Automóvel<br/>
+				<input type="checkbox" name="vehicle3" value="Public" checked>Transportes Públicos<br/> 
+				<br/>
+				<label>Quanto tempo demora?</label><br/>
+				<input type="radio" name="tempo" value="pouco"> Menos de 30 min<br/>
+				<input type="radio" name="tempo" value="muito"> Mais de 30 min<br/>
+				<br/>
+				<button type="button">Info</button>
+				<button type="reset">Limpar</button>
+				<button type="sumbit">Enviar</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
+
