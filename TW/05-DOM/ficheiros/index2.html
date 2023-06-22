@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Teste do DOM</title>
+	</head>
+	<body>
+		<div id="corpo">
+			<p>Clique no botão para mostrar a data e hora</p>
+			<p id="result"></p>
+			<button onclick="mostraData()">VerData</button>
+		</div>
+		<script type="text/javascript">
+			function mostraData(){
+				document.getElementById("result").innerHTML = new Date()
+			}
+		</script>
+	</body>
+</html>
