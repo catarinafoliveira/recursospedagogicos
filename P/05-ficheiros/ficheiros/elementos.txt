@@ -1,0 +1,6 @@
+Helio 2 0.1786
+Neon 10 0.9002
+Argon 18 1.7818
+Cripton 36 3.708
+Xenon 54 5.851
+Radonio 86 9.97

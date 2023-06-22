@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dados>
+	<instituição>
+		<CodPostal>4200</CodPostal>
+		<Cidade>Porto</Cidade>
+		<Freguesia>Paranhos</Freguesia>
+		<Morada>Dr. António Bernardino de Almeida</Morada>
+		<Instituição>Universidade Portucalense</Instituição>
+	</instituição>
+	<instituição>
+		<CodPostal>4000</CodPostal>
+		<Cidade>Porto</Cidade>
+		<Freguesia>Santo Ildefonso</Freguesia>
+		<Morada>Praça do General Humberto Delgado</Morada>
+		<Instituição>Câmara Municipal do Porto</Instituição>
+		</instituição>
+	<instituição>
+		<CodPostal>4300</CodPostal>
+		<Cidade>Porto</Cidade>
+		<Freguesia>Campanhã</Freguesia>
+		<Morada>Largo da Estação</Morada>
+		<Instituição>Estação de Campanhã</Instituição>
+	</instituição>
+		<instituição>
+		<CodPostal>4300</CodPostal>
+		<Cidade>Porto</Cidade>
+		<Freguesia>Campanhã</Freguesia>
+		<Morada>Largo da Estação</Morada>
+		<Instituição>Estação de Campanhã</Instituição>
+	</instituição>
+</dados>
+
+

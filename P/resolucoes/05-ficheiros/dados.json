@@ -1,0 +1,27 @@
+{
+	"instituições": [
+		{
+			"CodPostal": 4200, 
+			"Cidade": "Porto", 
+			"Freguesia": "Paranhos", 
+			"Morada": "Rua Dr. António Bernardino de Almeida", 
+			"Instituição": "Universidade Portucalense"
+		}, 
+		{
+			"CodPostal": 4000, 
+			"Cidade": "Porto", 
+			"Freguesia": "Santo Ildefonso", 
+			"Morada": "Praça do General Humberto Delgado", 
+			"Instituição": "Câmara Municipal do Porto"
+		}, 
+		{
+			"CodPostal": "4300", 
+			"Cidade": "Porto", 
+			"Freguesia": "Campanhã", 
+			"Morada": "Largo da Estação", 
+			"Instituição": "Estação de Campanhã"
+		}
+	]
+}
+
+
