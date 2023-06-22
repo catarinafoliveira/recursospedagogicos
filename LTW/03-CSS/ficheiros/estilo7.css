@@ -1,0 +1,10 @@
+p::first-letter {
+	color: #ff0000;
+	font-size: xx-large;
+}
+
+h1::before {
+	content: url(smile.png);
+}
+
+

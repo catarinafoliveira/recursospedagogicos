@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form>
+			<fieldset class="form-group">
+				<label for="street">Morada</label>
+				<input type="text" class="form-control" id="street" placeholder="Introduzir a rua">
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="city">Cidade</label>
+				<input type="text" class="form-control" id="city" placeholder="... e a cidade">
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="state">Distrito</label>
+				<select class="form-control" id="state">
+					<option>Porto</option>
+					<option>Aveiro</option>
+					<option>Lisboa</option>
+					<option>Braga</option>
+					<option>Leiria</option>
+				</select>
+			</fieldset>
+			<fieldset class="form-group">
+			<label for="handling">Notas</label>
+				<textarea class="form-control" id="handling" rows="3"></textarea>
+			</fieldset>
+			<label>Extras</label>
+			<div class="checkbox">
+				<label><input type="checkbox" value="">Papel de embrulho</label>
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox" value="">Rebuçados</label>
+			</div>
+			<label>Seguro:</label>
+			<div class="radio">
+				<label><input type="radio" name="insurance" value="yes" checked>Sim (5€)</label>
+			</div>
+			<div class="radio">
+				<label><input type="radio" name="insurance" value="no">Não</label>
+			</div>
+			<button type="button" class="btn btn-primary">Primário</button>
+			<button type="button" class="btn btn-primary btn-sm">Primário pequeno</button>
+			<button type="button" class="btn btn-secondary">Secundário</button>
+			<button type="button" class="btn btn-secondary btn-lg">Secundário grande</button>
+			<button type="button" class="btn btn-secondary btn-lg btn-block">Secundário bloco</button>
+			<button type="button" class="btn btn-success">Sucesso</button>
+			<button type="button" class="btn btn-info">Informação</button>
+			<button type="button" class="btn btn-warning">Aviso</button>
+			<button type="button" class="btn btn-danger">Perigo</button>
+		</form>
+	</div>
+</body>
+</html>
+

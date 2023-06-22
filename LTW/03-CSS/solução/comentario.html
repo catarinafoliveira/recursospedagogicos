@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Comentar</title>
+		<link rel="stylesheet" href="estilo.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<p> Introduzir comentario </p>
+		<form action="login.html" method="post">
+			<fieldset>
+				<legend>Dados Pessoais:</legend>
+				<label>Nome:</label><br/>
+				<input name="nome" type="text"><br/>
+				<label>Email:</label><br/>
+				<input name="email" type="email"><br/>
+			</fieldset>
+			<fieldset>
+				<legend>Feedback:</legend>
+				<label>Secção:</label><br/>
+				<select>
+					 <option value="produtos">Produtos</option>
+					 <option value="promocoes">Promoções</option>
+					 <option value="servicos">Serviços</option>
+					 <option value="lojas">Lojas</option>
+				</select>
+				<br/><br/>
+				<label>Quantas vezes se deparou com o problema?</label><br/>
+				<input type="radio" name="vezes" value="uma">Apenas uma vez</input><br/>
+				<input type="radio" name="vezes" value="duas_cinco">Duas a cinco vezes</input><br/>
+				<input type="radio" name="vezes" value="mais_cinco">Mais do que cinco vezes</input><br/> 
+				<br/>
+				<label>Já nos enviou feedback sobre este assunto?</label><br/>
+				<input type="checkbox" name="tempo" value="hoje">Sim, hoje.<br/>
+				<input type="checkbox" name="tempo" value="antes">Sim, mas não hoje.<br/>
+				<br/>
+				<label>Por favor, descreva o problema:</label><br/>
+				<textarea name="comentario"></textarea><br/>
+			</fieldset>
+			<button type="button">Info</button>
+			<button type="reset">Limpar</button>
+			<button type="submit">Enviar</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<button type="button" class="btn btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
+			Open Awesome Modal!
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel">Awesome Modal</h4>
+					</div>
+					<div class="modal-body">
+						Look at this cool modal we created and wired up without having to write any CSS or Javascript. Thanks, Bootstrap!
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger">Nay!</button>
+						<button type="button" class="btn btn-success" data-dismiss="modal">Yay!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="alert alert-success" role="alert">
+			<strong>Well done!</strong> You successfully read this important alert message.
+		</div>
+		<div class="alert alert-info" role="alert">
+			<strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+		</div>
+		<div class="alert alert-warning" role="alert">
+			<strong>Warning!</strong> Better check yourself, you're not looking too good.
+		</div>
+		<div class="alert alert-danger" role="alert">
+			<strong>Oh snap!</strong> Change a few things up and try submitting again.
+		</div>
+	</div>
+</body>
+</html>
+

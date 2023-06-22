@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Ordenar</title>
+	</head>
+	<body>
+		<p>Ordenar o array</p>
+		<?php print_r(array("Sophy"=>"31","Jack"=>"41","Will"=>"39","Ramesh"=>"40"));?>
+		<br><br>
+		<form action="process_ordenar.php" method="post">
+			<fieldset>
+				<legend>Escolher forma de ordenação</legend>
+				<label>Qual é a ordem?</label><br/>
+				<input type="radio" name="ordem" value="decrescente">Decrescente</input><br/>
+				<input type="radio" name="ordem" value="crescente">Crescente</input><br/>
+				<br/>
+				
+				<label>Ordenar por:</label><br/>
+				<input type="radio" name="campo" value="nome">Nome</input><br/>
+				<input type="radio" name="campo" value="idade">Idade</input><br/>
+				<br/>
+				<button type="submit">Ordenar</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
